@@ -1,0 +1,105 @@
+@media screen and (min-width: 1800px) {
+  h1 {
+    font-size: 125px;
+    width: 640px;
+  }
+  .section.black>img{
+    height: 800px;
+  }
+  #introduction {
+    width: 640px;
+    font-size: 30px;
+    line-height: 70px;
+  }
+  }  
+
+@media screen and (max-width: 1600px) and  (min-width: 1200px){
+  h1 {
+    font-size: 80px;
+    width: 380px;
+  }
+  .section.black>img{
+    height: 500px;
+  }
+  #introduction {
+    width: 380px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  }
+
+@media screen and (max-width: 1450px) {
+  .project-container {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+  .icon-container {
+    margin-left: 30px;
+  }
+  .white.section > h1 {
+    font-size: 80px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section {
+    padding: 50px 100px 50px 100px;
+  }
+  h1 {
+    font-size: 80px;
+    width: 400px;
+  }
+  .section.black>img{
+    height: 480px;
+  }
+  #introduction {
+    width: 400px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .section {
+    padding: 50px 100px 50px 100px;
+  }
+  h1 {
+    font-size: 50px;
+    width: 250px;
+  }
+  .section.black>img{
+    height: 380px;
+  }
+  #introduction {
+    width: 290px;
+    word-spacing: 12px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .coffee-image {
+    object-fit: contain;
+    height: auto;
+    width: 300px;
+  }
+  .coffee {
+    font-size: 40px;
+    width: 300px;
+    margin: 0px 0px 50px 0px;
+  }
+  .icon-container {
+    width: 300px;
+    margin: 0;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .section.white {
+    padding: 60px 30px 100px 30px;
+  }
+  .white.section > h1 {
+    font-size: 55px;
+    width: 280px;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+}
