@@ -120,6 +120,10 @@ a {
   background-color: #efefef;
 }
 
+.coffee-image {
+  width: 420px;
+}
+
 .coffee {
   margin: 50px 0px 50px 0px;
   padding: 0;
